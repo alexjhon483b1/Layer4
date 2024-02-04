@@ -85,3 +85,8 @@ OS (Layer 3 and 4):
     Operating System (OS):
         Manages networking, file systems, and processes.
         Interacts with Layer 3 (Network) and Layer 4 (Transport).
+
+Other Concepts:
+
+    Firmware:
+        Software embedded in hardware devices, responsible for low-level control.
