@@ -18,7 +18,7 @@ sudo telnet 103.221.255.104 80
 telnet creates a tcp session and i can also send furter
 request(that are written in plain text with request header, protocol and method) from there.
 
-the first C code uses raw socket. and the telnet uses user level
+the l4 uses raw socket. and the telnet uses user level
 connection socket. that's why first code need sudo access and 
 telnet doesn't need that.
 
