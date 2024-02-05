@@ -31,7 +31,8 @@ NAT Device Routes the Response:
 
     The NAT device receives the incoming response.
     It checks its translation table to determine which local device the response is intended for.
-    The NAT device then replaces the destination IP address and port in the incoming packet with the corresponding private IP address and port of the original local device.
+    The NAT device then replaces the destination IP address and port in the incoming packet 
+with the corresponding private IP address and port of the original local device.
 
 
 
@@ -40,4 +41,7 @@ NAT Device Routes the Response:
     Delivery to Local Device:
         The NAT device delivers the response packet to the original local device that initiated the outgoing connection.
 
-In summary, the server responds to the public IP address and port number assigned by the NAT device. The NAT device uses its translation table to determine the corresponding local device and forwards the response accordingly. This process allows multiple devices on a local network to share a single public IP address while maintaining proper communication with external servers.
+In summary, the server responds to the public IP address and port number assigned by the NAT device.
+The NAT device uses its translation table to determine the corresponding local device and forwards the
+response accordingly. This process allows multiple devices on a local network to share a single public
+IP address while maintaining proper communication with external servers.
