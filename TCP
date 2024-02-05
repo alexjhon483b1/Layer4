@@ -1,0 +1,8 @@
+    S SYN (Synchronize sequence numbers) - Used to initiate a connection.
+    . ACK (Acknowledgment) - Acknowledges the receipt of data.
+    S. SYN-ACK - Indicates the response to a SYN, acknowledging the SYN and simultaneously sending its own SYN to establish a connection.
+    F FIN (Finish) - Used to terminate an established connection.
+    P PSH (Push) - Used to request the immediate delivery of data without waiting for the buffer to fill.
+    R RST (Reset) - Used to reset a connection. Indicates an error or that the recipient should abort the connection.
+    U URG (Urgent) - Indicates that the Urgent pointer field is significant.
+
