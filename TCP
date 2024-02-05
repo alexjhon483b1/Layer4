@@ -1,3 +1,5 @@
+TCP Flags
+
     S SYN (Synchronize sequence numbers) - Used to initiate a connection.
     . ACK (Acknowledgment) - Acknowledges the receipt of data.
     S. SYN-ACK - Indicates the response to a SYN, acknowledging the SYN and simultaneously sending its own SYN to establish a connection.
