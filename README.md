@@ -101,8 +101,7 @@ Other Concepts:
 
 
 
-[if i send a get request first after that ssl connection established ?](#
-if i send a get request first after that ssl connection established ?)
+-[if i send a get request first after that ssl connection established ?](#if i send a get request first after that ssl connection established ?)
 
 
 
