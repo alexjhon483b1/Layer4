@@ -377,6 +377,7 @@ It's important to note that the impact of OS vulnerabilities on Layer 4 depends 
 ports are part of layer 4 ?
 
 
+TCP packets are sent to a specific port
 Yes, ports are associated with Layer 4 of the OSI model, specifically with the Transport layer. In the context of the TCP/IP protocol suite, which is widely used in networking, ports play a crucial role in identifying specific communication endpoints.
 
 In TCP/IP, the Transport layer provides communication between applications on different devices. Ports help distinguish different services or processes running on a single device. The combination of an IP address and a port number forms a unique endpoint for communication, often referred to as a socket.
