@@ -86,8 +86,12 @@ OS (Layer 3 and 4):
         Manages networking, file systems, and processes.
         Interacts with Layer 3 (Network) and Layer 4 (Transport).
 
-Other Concepts:
+IP:
+    
+     The Internet Protocol (IP) operates at the Network Layer (Layer 3) of the OSI model. The Network Layer is responsible for logical addressing, routing,            andforwarding of data packets between different networks. IP is a fundamental protocol for internet communication and provides the addressing and routing         mechanisms necessary for data to traverse multiple networks from the source to the destination.
 
+Other Concepts:
+    
     Firmware:
         Software embedded in hardware devices, responsible for low-level control.
 
