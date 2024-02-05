@@ -3,11 +3,13 @@ now one device sending tcp to a server. so the server will also have to response
 now to which ip the server will response back ?
 
 
-In a network setup with Network Address Translation (NAT), when multiple devices on a local network share the same public IP address, the NAT device keeps track of the translation and determines where to send incoming responses. Let's break down the process:
+In a network setup with Network Address Translation (NAT), when multiple devices on a local network share the same public IP address,
+the NAT device keeps track of the translation and determines where to send incoming responses. Let's break down the process:
 
     Outgoing Traffic (Source NAT - SNAT):
         A device on the local network initiates a TCP connection to a server on the internet.
-        The NAT device, which has a public IP address, replaces the source IP address of the outgoing packet with its own public IP address. Additionally, it assigns a unique port number to the connection.
+        The NAT device, which has a public IP address, replaces the source IP address of the outgoing packet with its 
+own public IP address. Additionally, it assigns a unique port number to the connection.
 
 
 
