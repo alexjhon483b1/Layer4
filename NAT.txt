@@ -1,7 +1,7 @@
 when i am using NAT a lot of devices using same public. 
 now one device sending tcp to a server. so the server will also have to response back.
 now to which ip the server will response back ?
-ChatGPT
+
 
 In a network setup with Network Address Translation (NAT), when multiple devices on a local network share the same public IP address, the NAT device keeps track of the translation and determines where to send incoming responses. Let's break down the process:
 
