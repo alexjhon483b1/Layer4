@@ -1,0 +1,41 @@
+when i am using NAT a lot of devices using same public. 
+now one device sending tcp to a server. so the server will also have to response back.
+now to which ip the server will response back ?
+ChatGPT
+
+In a network setup with Network Address Translation (NAT), when multiple devices on a local network share the same public IP address, the NAT device keeps track of the translation and determines where to send incoming responses. Let's break down the process:
+
+    Outgoing Traffic (Source NAT - SNAT):
+        A device on the local network initiates a TCP connection to a server on the internet.
+        The NAT device, which has a public IP address, replaces the source IP address of the outgoing packet with its own public IP address. Additionally, it assigns a unique port number to the connection.
+
+    plaintext
+
+Before NAT:
+[Local Device IP:Port] -> [Server IP:Port]
+
+After NAT:
+[Public IP:Assigned Port] -> [Server IP:Port]
+
+Server's Response (Destination NAT - DNAT):
+
+    When the server responds, it sends the response to the public IP address and port number assigned by the NAT device.
+
+plaintext
+
+Server -> [Public IP:Assigned Port]
+
+NAT Device Routes the Response:
+
+    The NAT device receives the incoming response.
+    It checks its translation table to determine which local device the response is intended for.
+    The NAT device then replaces the destination IP address and port in the incoming packet with the corresponding private IP address and port of the original local device.
+
+plaintext
+
+    [Public IP:Assigned Port] -> [Local Device IP:Port]
+
+    Delivery to Local Device:
+        The NAT device delivers the response packet to the original local device that initiated the outgoing connection.
+
+In summary, the server responds to the public IP address and port number assigned by the NAT device. The NAT device uses its translation table to determine the corresponding local device and forwards the response accordingly. This process allows multiple devices on a local network to share a single public IP address while maintaining proper communication with external servers.
