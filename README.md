@@ -101,7 +101,30 @@ Other Concepts:
 
 
 
-if i send a get request first after that ssl connection established ?
+[if i send a get request first after that ssl connection established ?](#
+if i send a get request first after that ssl connection established ?)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if i send a get request first after that ssl connection established ? <a name="
+if i send a get request first after that ssl connection established ?"></a>
 
 
 Yes, in the context of HTTPS (HTTP over SSL/TLS), the SSL/TLS connection is established after the initial TCP connection is made. The process typically involves the following steps:
