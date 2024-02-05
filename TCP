@@ -8,3 +8,12 @@ TCP Flags
     R RST (Reset) - Used to reset a connection. Indicates an error or that the recipient should abort the connection.
     U URG (Urgent) - Indicates that the Urgent pointer field is significant.
 
+Byte 1 | Byte 2 | Flags
+------------------------
+  80   |   00   | URG, ACK
+  40   |   00   | URG
+  20   |   00   | ACK
+  10   |   00   | PSH
+  08   |   00   | RST
+  04   |   00   | SYN
+  02   |   00   | FIN
