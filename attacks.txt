@@ -1,0 +1,20 @@
+Interesting layer4 attacks:
+
+
+   SYN/ACK Flooding:
+        Exploiting the TCP three-way handshake process, attackers can flood a target server with a high volume of SYN or SYN-ACK packets, causing resource exhaustion and disrupting normal operation.
+
+    TCP/IP Hijacking:
+        Involves manipulating TCP/IP packets to take control of an established TCP connection. This may be done through techniques like session hijacking or man-in-the-middle attacks.
+
+    Session Hijacking (TCP Session Hijacking):
+        Intercepting and taking over an established session between two parties. This often involves stealing session cookies or session IDs.
+
+    UDP Reflection/Amplification Attacks:
+        Similar to DDoS attacks, but leveraging UDP (User Datagram Protocol). Attackers can send a small amount of traffic to a vulnerable server, which then responds with a much larger volume of data to the victim.
+
+    Reset Spoofing (RST Attack):
+        Sending forged TCP reset (RST) packets to terminate an existing TCP connection, disrupting communication between two parties.
+
+    Ping of Death:
+        Sending malformed or oversized ping packets to a target, exploiting vulnerabilities in the way the target handles ICMP packets.
